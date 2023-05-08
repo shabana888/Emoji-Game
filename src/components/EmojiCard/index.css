@@ -1,0 +1,29 @@
+/* Write your code here. */
+.listCont {
+  background-color: #9796f0;
+  border: 2px solid #ffffff30;
+  border-radius: 15px;
+  margin: 4px;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.emoji {
+  width: 70px;
+}
+.button1 {
+  background-color: transparent;
+  border: 0px solid white;
+}
+@media screen and (max-width: 768px) {
+  .listCont {
+    width: 100px;
+    height: 100px;
+  }
+  .emoji {
+    width: 50px;
+  }
+}

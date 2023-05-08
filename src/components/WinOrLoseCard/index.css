@@ -1,0 +1,62 @@
+/* Write your code here. */
+.WinLoseCont {
+  background-color: #9796f0;
+  border: 1px solid #ffffff30;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+}
+.head-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 28px;
+}
+.win {
+  color: white;
+  font-size: 38px;
+  font-family: 'Roboto';
+}
+.won {
+  width: 250px;
+}
+.para-score {
+  color: white;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+}
+.para-score-win {
+  color: #6a59ff;
+  font-size: 30px;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+}
+.button {
+  background-color: #ffce27;
+  border: 0px solid white;
+  color: #3d3d3d;
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .WinLoseCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .head-cont {
+    order: 1;
+  }
+}

@@ -1,0 +1,79 @@
+/* Write your code here. */
+.NavContainer {
+  background-color: #9796f0;
+  height: 10vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.logo {
+  width: 40px;
+}
+.head {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.score {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 25px;
+}
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.score-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* .navbar-container {
+  background-image: linear-gradient(to bottom, #6a59ff, #fbc7d4);
+  height: 10vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.score {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 25px;
+} */
